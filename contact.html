@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Matmar Pools | Consultation Request</title>
+    <meta
+      name="description"
+      content="Contact Matmar Pools for premium custom pool, spa, and outdoor kitchen consultation in the Rio Grande Valley."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-bg" aria-hidden="true"></div>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <a class="brand" href="./index.html" aria-label="Matmar Pools home">
+          <img src="./matmarlogo.png" alt="Matmar Pools logo" />
+          <span>
+            <strong>Matmar Pools</strong>
+            <em>Rio Grande Valley, Texas</em>
+          </span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+          Menu
+        </button>
+
+        <nav id="site-nav" class="main-nav" aria-label="Primary">
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About</a>
+          <a href="./services.html">Services</a>
+          <a class="is-current" href="./contact.html">Contact</a>
+        </nav>
+
+        <a class="btn btn-solid desktop-cta" href="./contact.html">Book A Consultation</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="sub-hero">
+        <div class="container">
+          <article class="panel reveal">
+            <p class="eyebrow">Contact</p>
+            <h1>Let&apos;s plan your backyard transformation.</h1>
+            <p class="lead">
+              Share your goals and timeline. We&apos;ll help you shape a custom pool and outdoor living concept that fits
+              your home and lifestyle.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container grid-2">
+          <article class="panel reveal">
+            <p class="eyebrow dark">Consultation Form</p>
+            <h3>Tell us about your project.</h3>
+            <form class="form" action="#" method="post">
+              <div class="field">
+                <label for="name">Full Name</label>
+                <input id="name" name="name" type="text" required />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input id="phone" name="phone" type="tel" />
+              </div>
+              <div class="field">
+                <label for="message">Project Vision</label>
+                <textarea id="message" name="message" placeholder="Pool style, outdoor kitchen needs, timeline, and city..."></textarea>
+              </div>
+              <button class="btn btn-solid" type="submit">Submit Request</button>
+            </form>
+          </article>
+
+          <aside class="panel reveal">
+            <p class="eyebrow dark">Reach Matmar</p>
+            <h3>We serve homeowners across South Texas.</h3>
+            <ul class="list">
+              <li>Rio Grande Valley, Texas</li>
+              <li>Consultations by appointment</li>
+              <li>English and Spanish friendly service</li>
+            </ul>
+            <div class="actions">
+              <a class="btn btn-ghost" href="https://www.facebook.com/MATMARPOOLS" target="_blank" rel="noreferrer">Message on Facebook</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <strong>Matmar Pools & Outdoor Kitchens</strong>
+          <p>Premium outdoor living for Rio Grande Valley homes.</p>
+        </div>
+        <nav aria-label="Footer navigation">
+          <a href="./about.html">About</a>
+          <a href="./services.html">Services</a>
+          <a href="./contact.html">Contact</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
