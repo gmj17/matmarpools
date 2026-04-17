@@ -1,226 +1,426 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Matmar Pools | Premium Pools & Outdoor Living in the RGV</title>
-    <meta
-      name="description"
-      content="Matmar Pools designs and builds premium custom pools, outdoor kitchens, and complete backyard environments across the Rio Grande Valley."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Outfit:wght@300;400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./styles.css" />
-  </head>
-  <body>
-    <div class="site-bg" aria-hidden="true"></div>
-    <header class="topbar">
-      <div class="container nav-wrap">
-        <a class="brand" href="./index.html" aria-label="Matmar Pools home">
-          <img src="./matmarlogo.png" alt="Matmar Pools logo" />
-          <span>
-            <strong>Matmar Pools</strong>
-            <em>Rio Grande Valley, Texas</em>
-          </span>
-        </a>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Matmar Pools | Premium Pools & Outdoor Living — RGV</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
 
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-          Menu
-        </button>
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">
+    <img src="./assets/img/matmarlogo.png" alt="Matmar Pools logo" />
+    <span class="nav-logo-copy">
+      <span class="nav-logo-name">Matmar Pools</span>
+      <span class="nav-logo-sub">Rio Grande Valley</span>
+    </span>
+  </a>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Our Work</a></li>
+    <li><a href="#process">Process</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact" class="nav-cta">Book Consultation</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
 
-        <nav id="site-nav" class="main-nav" aria-label="Primary">
-          <a class="is-current" href="./index.html">Home</a>
-          <a href="./about.html">About</a>
-          <a href="./services.html">Services</a>
-          <a href="./contact.html">Contact</a>
-        </nav>
+<!-- HERO -->
+<section class="hero hero-no-pad">
+  <div class="hero-content">
+    <p class="hero-eyebrow">Premium Outdoor Living — RGV</p>
+    <h1 class="hero-headline">
+      Backyards built<br>
+      for <em>how you<br>actually live</em>
+    </h1>
+    <p class="hero-sub">Custom pools, spas, and outdoor kitchens designed for South Texas — climate-ready, architecturally intentional, and built around your family's rhythm. Financing available for qualified projects.</p>
+    <div class="hero-actions">
+      <a href="#contact" class="btn-primary">Start Your Project</a>
+      <a href="#portfolio" class="btn-ghost">See Our Work →</a>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span class="scroll-line"></span>
+      Scroll to explore
+    </div>
+  </div>
+  <div class="hero-img-side">
+    <div class="img-placeholder placeholder-fill">
+      <img src="./assets/img/matmarherobg.png" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+    </div>
+  </div>
+</section>
 
-        <a class="btn btn-solid desktop-cta" href="./contact.html">Book A Consultation</a>
+<!-- STATS STRIP -->
+<div class="stats-strip">
+  <div class="stat-item">
+    <span class="stat-num">RGV</span>
+    <span class="stat-label">Based & Focused</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">100%</span>
+    <span class="stat-label">Custom Designs</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">6</span>
+    <span class="stat-label">Services Offered</span>
+  </div>
+  <div class="stat-item">
+    <span class="stat-num">Year-Round</span>
+    <span class="stat-label">Outdoor Living</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <div class="services-header fade-up">
+    <div>
+      <p class="section-eyebrow">What We Build</p>
+      <h2 class="section-title">One team.<br><em>Every corner</em><br>of your backyard.</h2>
+    </div>
+    <p class="services-desc">From the first sketch to the final tile, we handle every element of your outdoor space — water, shade, fire, and gathering — so the result feels cohesive and intentional, not pieced together.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card">
+      <div class="service-num">01</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><path d="M3 17l9-9 4 4 5-5M3 21h18"/></svg></div>
+          <img src="./assets/img/matmarherobg.png" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+        </div>
       </div>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container hero-grid">
-          <div class="hero-stage reveal">
-            <div class="hero-copy">
-              <p class="eyebrow">Where Elegance Meets Outdoors</p>
-              <h1>Backyards with presence, built for South Texas living.</h1>
-              <p class="lead">
-                Matmar creates premium pools, spas, and outdoor kitchens that feel architecturally intentional,
-                climate-ready, and custom to how Rio Grande Valley families actually live.
-              </p>
-              <div class="actions">
-                <a class="btn btn-solid" href="./contact.html">Start Your Project</a>
-                <a class="btn btn-ghost light" href="./services.html">Explore Services</a>
-              </div>
-              <div class="hero-stats">
-                <article>
-                  <strong>Custom First</strong>
-                  <span>No stock layouts or recycled design packages.</span>
-                </article>
-                <article>
-                  <strong>RGV Focused</strong>
-                  <span>Built for long summers and year-round hosting.</span>
-                </article>
-                <article>
-                  <strong>Full Backyard</strong>
-                  <span>Pools, kitchens, hardscape, and lifestyle flow.</span>
-                </article>
-              </div>
-            </div>
-
-            <aside class="hero-floating-card">
-              <p class="card-kicker">Matmar Signature</p>
-              <h2>Designed to feel tailored from the first glance.</h2>
-              <p>
-                From custom pool design to complete outdoor living environments, every line, finish, and feature is
-                planned to deliver a polished, resort-level experience at home.
-              </p>
-              <a href="./about.html">See Our Approach</a>
-            </aside>
-          </div>
+      <h3 class="service-title">Pool Construction & Design</h3>
+      <p class="service-desc">Custom pools and spas with clean geometry, luxury finishes, and features tailored to your property and lifestyle.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">02</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><path d="M17 8C8 10 5.9 16.17 3.82 21M19 8c.93 2.88.5 5.5-1 7M7 9.27C7.91 7.7 9 6 11 5"/></svg></div>
+          <img src="assets/img/IMG_8302.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
         </div>
-        <div class="hero-wave" aria-hidden="true"></div>
-      </section>
-
-      <section class="section intro">
-        <div class="container split reveal">
-          <div>
-            <p class="eyebrow dark">Premium Positioning</p>
-            <h2>Built for families who want more than a basic pool build.</h2>
-          </div>
-          <p>
-            Competitors in the area often feel service-heavy and utility-first. Matmar stands out by emphasizing
-            atmosphere, craftsmanship, and complete backyard experiences that feel cohesive day to night.
-          </p>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container cards-3">
-          <article class="feature-card reveal">
-            <p>01</p>
-            <h3>Pool Construction & Design</h3>
-            <span>Custom pools and spas with clean geometry, luxury finishes, and features tailored to your property.</span>
-          </article>
-          <article class="feature-card reveal">
-            <p>02</p>
-            <h3>Outdoor Kitchens</h3>
-            <span>Hospitality-first cooking spaces for gatherings, weekends, and evening entertaining year-round.</span>
-          </article>
-          <article class="feature-card reveal">
-            <p>03</p>
-            <h3>Remodeling & Resurfacing</h3>
-            <span>Modernize aging pools with updated surfaces, tile, lighting, and contemporary waterline detailing.</span>
-          </article>
-          <article class="feature-card reveal">
-            <p>04</p>
-            <h3>Maintenance & Repair</h3>
-            <span>Ongoing care and equipment support to keep performance, water quality, and reliability at their best.</span>
-          </article>
-          <article class="feature-card reveal">
-            <p>05</p>
-            <h3>Outdoor Living Spaces</h3>
-            <span>Shade structures, hardscape, and lounge zones integrated into one cohesive backyard destination.</span>
-          </article>
-          <article class="feature-card reveal">
-            <p>06</p>
-            <h3>Complete Backyard Planning</h3>
-            <span>A single, design-led roadmap from first sketch through final reveal, built for clarity and confidence.</span>
-          </article>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container grid-2">
-          <article class="panel reveal">
-            <p class="eyebrow dark">Comprehensive Backyard Experts</p>
-            <h3>One team for water, hospitality, and outdoor lifestyle.</h3>
-            <ul class="list">
-              <li>Custom pools and spas designed around how your family lives.</li>
-              <li>Outdoor kitchens and gathering zones that feel refined and practical.</li>
-              <li>Renovation pathways for properties that need a full visual upgrade.</li>
-              <li>A contractor-level process with design-level taste and detail.</li>
-            </ul>
-          </article>
-
-          <article class="panel reveal note-panel">
-            <p class="eyebrow dark">Builder Confidence</p>
-            <h3>Premium results come from disciplined execution.</h3>
-            <p>
-              Leading pool builders in South Texas are trusted for clear communication and full-service capability.
-              Matmar is built around that same standard: thoughtful planning, craftsmanship-first construction, and
-              an end product that feels unmistakably high-end.
-            </p>
-            <div class="brand-chips" aria-label="Service strengths">
-              <span>Design-Driven</span>
-              <span>Construction Precision</span>
-              <span>Renovation Expertise</span>
-              <span>Outdoor Entertaining</span>
-            </div>
-          </article>
-        </div>
-      </section>
-
-      <section class="section process">
-        <div class="container">
-          <div class="section-head reveal">
-            <p class="eyebrow dark">Process</p>
-            <h2>Simple steps. High standards.</h2>
-          </div>
-          <div class="steps">
-            <article class="step reveal"><strong>01</strong><h3>Discover</h3><p>We map your space, goals, and lifestyle rhythm.</p></article>
-            <article class="step reveal"><strong>02</strong><h3>Design</h3><p>Concepts are developed around flow, shade, and statement moments.</p></article>
-            <article class="step reveal"><strong>03</strong><h3>Build</h3><p>Craft-focused execution with clear communication through delivery.</p></article>
-            <article class="step reveal"><strong>04</strong><h3>Host</h3><p>You get a backyard that performs beautifully all year.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
-        <div class="container cta-band reveal">
-          <p class="eyebrow">Financing Support Available</p>
-          <h2>Luxury backyards should feel achievable with the right plan.</h2>
-          <p class="lead-light">
-            Ask about financing pathways and phased project options while we build your scope, style, and timeline.
-          </p>
-          <div class="trust-row" aria-label="Reputation notes">
-            <p>Service-forward project management</p>
-            <p>Client-focused communication</p>
-            <p>Built for long-term performance</p>
-          </div>
-          <div class="testimonial-quote">
-            <strong>Client Experience Priority</strong>
-            <span>From consultation through completion, the process is designed to feel organized, personal, and premium.</span>
-          </div>
-          <p class="eyebrow">Ready To Build?</p>
-          <div class="actions">
-            <a class="btn btn-solid" href="./contact.html">Request A Consultation</a>
-            <a class="btn btn-ghost light" href="./services.html">View Capabilities</a>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container footer-grid">
-        <div>
-          <strong>Matmar Pools & Outdoor Kitchens</strong>
-          <p>Premium outdoor living for Rio Grande Valley homes.</p>
-        </div>
-        <nav aria-label="Footer navigation">
-          <a href="./about.html">About</a>
-          <a href="./services.html">Services</a>
-          <a href="./contact.html">Contact</a>
-        </nav>
       </div>
-    </footer>
+      <h3 class="service-title">Outdoor Kitchens</h3>
+      <p class="service-desc">Hospitality-first cooking spaces designed for South Texas entertaining — weekends, family gatherings, and everything in between.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">03</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"/></svg></div>
+          <img src="assets/img/IMG_8295.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+        </div>
+      </div>
+      <h3 class="service-title">Remodeling & Resurfacing</h3>
+      <p class="service-desc">Modernize aging pools with updated surfaces, tile, lighting, and contemporary waterline detailing that gives the whole yard a new feel.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">04</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <img src="assets/img/IMG_8298.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+        </div>
+      </div>
+      <h3 class="service-title">Maintenance & Repair</h3>
+      <p class="service-desc">Ongoing care and equipment support to keep water quality, performance, and reliability exactly where they should be.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">05</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <img src="assets/img/IMG_8303.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+        </div>
+      </div>
+      <h3 class="service-title">Outdoor Living Spaces</h3>
+      <p class="service-desc">Shade structures, hardscape, and lounge zones integrated into one cohesive backyard — day-through-night, season to season.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+    <div class="service-card">
+      <div class="service-num">06</div>
+      <div class="service-img">
+        <div class="img-placeholder placeholder-service">
+          <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg></div>
+          <img src="assets/img/IMG_8297.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+        </div>
+      </div>
+      <h3 class="service-title">Complete Backyard Planning</h3>
+      <p class="service-desc">A single, design-led roadmap from first sketch through final reveal — built for clarity and built for confidence.</p>
+      <a href="#" class="service-link">Learn more →</a>
+    </div>
+  </div>
+</section>
 
-    <script src="./script.js"></script>
-  </body>
+<!-- PORTFOLIO -->
+<section class="portfolio" id="portfolio">
+  <div class="portfolio-header fade-up">
+    <div>
+      <p class="section-eyebrow">Featured Work</p>
+      <h2 class="section-title">Projects that<br><em>speak for themselves.</em></h2>
+    </div>
+    <a href="#" class="btn-ghost">View full portfolio →</a>
+  </div>
+  <div class="portfolio-grid">
+    <div class="portfolio-item featured fade-up">
+      <div class="img-placeholder placeholder-featured">
+        <div class="img-placeholder-icon img-placeholder-icon-lg">
+          <svg class="img-placeholder-svg-lg" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+        </div>
+        <img src="assets/img/IMG_8308.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+      <div class="portfolio-caption">
+        <p class="portfolio-caption-type">Custom Pool + Outdoor Kitchen</p>
+      </div>
+    </div>
+    <div class="portfolio-item fade-up">
+      <div class="img-placeholder placeholder-portfolio">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8307.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+      <div class="portfolio-caption">
+        <p class="portfolio-caption-type">Remodel & Resurface</p>
+        <p class="portfolio-caption-name">McAllen, TX</p>
+      </div>
+    </div>
+    <div class="portfolio-item fade-up">
+      <div class="img-placeholder placeholder-portfolio">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8301.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+      <div class="portfolio-caption">
+        <p class="portfolio-caption-type">Outdoor Living</p>
+        <p class="portfolio-caption-name">Mission, TX</p>
+      </div>
+    </div>
+    <div class="portfolio-item fade-up">
+      <div class="img-placeholder placeholder-portfolio">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8304.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+      <div class="portfolio-caption">
+        <p class="portfolio-caption-type">Custom Spa</p>
+        <p class="portfolio-caption-name">Edinburg, TX</p>
+      </div>
+    </div>
+    <div class="portfolio-item fade-up">
+      <div class="img-placeholder placeholder-portfolio">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8295.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+      <div class="portfolio-caption">
+        <p class="portfolio-caption-type">New Construction</p>
+        <p class="portfolio-caption-name">Pharr, TX</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<div class="process" id="process">
+  <div class="fade-up">
+    <p class="section-eyebrow">How It Works</p>
+    <h2 class="section-title">A simple process.<br><em>No surprises.</em></h2>
+    <div class="gold-line"></div>
+    <div class="process-steps">
+      <div class="process-step">
+        <span class="process-step-num">01</span>
+        <div class="process-step-content">
+          <h3 class="process-step-title">Discover</h3>
+          <p class="process-step-desc">We walk your space, understand how your family lives, and map out what a finished backyard should feel and function like.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="process-step-num">02</span>
+        <div class="process-step-content">
+          <h3 class="process-step-title">Design</h3>
+          <p class="process-step-desc">Concepts are developed around flow, shade, and statement moments — not stock layouts. You see it before we break ground.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="process-step-num">03</span>
+        <div class="process-step-content">
+          <h3 class="process-step-title">Build</h3>
+          <p class="process-step-desc">Craft-focused execution with clear communication from first pour to final detail. No handoffs, no surprises on the back end.</p>
+        </div>
+      </div>
+      <div class="process-step">
+        <span class="process-step-num">04</span>
+        <div class="process-step-content">
+          <h3 class="process-step-title">Host</h3>
+          <p class="process-step-desc">You get a backyard that performs beautifully all year — designed for South Texas summers and the gatherings that come with them.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="process-img-col fade-up">
+    <div class="process-img-main">
+      <div class="img-placeholder placeholder-process-main">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8309.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+    </div>
+    <div class="process-img-accent">
+      <div class="img-placeholder placeholder-process-accent">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <img src="assets/img/IMG_8295.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <p class="section-eyebrow">Client Stories</p>
+  <h2 class="section-title">What RGV families<br><em>say about Matmar.</em></h2>
+  <div class="testimonials-grid fade-up">
+    <div class="testimonial-card">
+      <div class="testimonial-stars">
+        <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+      </div>
+      <p class="testimonial-text">"We'd gotten quotes from three other companies — Matmar was the only one that actually listened to how we wanted to use the space. The finished pool is exactly what we had in our heads, maybe better."</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">— Add Client Name</span>
+        <span class="testimonial-location">McAllen, TX</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">
+        <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+      </div>
+      <p class="testimonial-text">"The outdoor kitchen came out unreal. Communication throughout the whole project was clear and they hit every deadline. Our backyard is basically our favorite room in the house now."</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">— Add Client Name</span>
+        <span class="testimonial-location">Edinburg, TX</span>
+      </div>
+    </div>
+    <div class="testimonial-card">
+      <div class="testimonial-stars">
+        <div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div><div class="star"></div>
+      </div>
+      <p class="testimonial-text">"I was nervous about the renovation process on our old pool. They handled everything — resurfacing, new tile, lighting upgrade. It looks brand new. Worth every penny."</p>
+      <div class="testimonial-author">
+        <span class="testimonial-name">— Add Client Name</span>
+        <span class="testimonial-location">Mission, TX</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-strip" id="about">
+  <div class="about-img-grid fade-up">
+    <div class="about-img-tall">
+      <div class="img-placeholder placeholder-about-tall">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <span class="img-placeholder-label">Team or owner photo — portrait</span>
+      </div>
+    </div>
+    <div>
+      <div class="img-placeholder placeholder-about-small">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <span class="img-placeholder-label">Project detail or build site</span>
+      </div>
+    </div>
+    <div>
+      <div class="img-placeholder placeholder-about-small">
+        <div class="img-placeholder-icon"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
+        <span class="img-placeholder-label">Finished project — overhead or wide</span>
+      </div>
+    </div>
+  </div>
+  <div class="about-content fade-up">
+    <p class="section-eyebrow">Who We Are</p>
+    <h2 class="section-title">RGV-rooted.<br><em>Design-driven.</em></h2>
+    <div class="gold-line"></div>
+    <p class="about-body">Matmar was built around a simple belief: your backyard should feel like it was made for you — not for a catalog. We're a South Texas team that understands what it means to host outdoors in the Valley: long summers, multigenerational families, and a culture where the backyard is the heart of the home.</p>
+    <p class="about-body about-body-tight">Every project starts with how you live, not a one-size-fits-all plan. We bring the design sensibility of a boutique firm with the execution discipline of a serious contractor.</p>
+    <div class="about-tags">
+      <span class="tag">Custom Design</span>
+      <span class="tag">RGV Based</span>
+      <span class="tag">Full Backyard</span>
+      <span class="tag">Licensed & Insured</span>
+      <span class="tag">South Texas Climate</span>
+    </div>
+    <a href="#contact" class="btn-primary">Meet the Team</a>
+  </div>
+</section>
+
+<!-- CTA BANNER -->
+<div class="cta-banner">
+  <div class="cta-banner-bg">
+    <div class="img-placeholder placeholder-fill">
+      <div class="img-placeholder-icon img-placeholder-icon-xl">
+        <svg class="img-placeholder-svg-xl" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="1"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+      </div>
+      <img src="assets/img/IMG_8308.jpeg" alt="Matmar Pools hero project" class="hero-placeholder-image" />
+    </div>
+  </div>
+  <div class="cta-banner-overlay"></div>
+  <div class="cta-banner-content">
+    <p class="section-eyebrow">Ready to Build?</p>
+    <h2 class="cta-title">Your backyard deserves<br>to feel <em>this good.</em></h2>
+    <p class="cta-sub">Book a free consultation and we'll walk your space, understand your vision, and give you a clear path from concept to completed project.</p>
+    <div class="cta-actions">
+      <a href="#contact" class="btn-light">Book a Free Consultation</a>
+      <a href="tel:+1-956-000-0000" class="btn-outline-light">Call Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- CONTACT / FOOTER -->
+<footer id="contact">
+  <div class="footer-top">
+    <div>
+      <p class="footer-brand-name">Matmar Pools</p>
+      <p class="footer-brand-sub">Rio Grande Valley, Texas</p>
+      <p class="footer-body">Premium pools, spas, and outdoor living environments — custom-built for South Texas families who want more than a basic pool build.</p>
+    </div>
+    <div>
+      <p class="footer-col-title">Services</p>
+      <ul class="footer-links">
+        <li><a href="#">Pool Construction</a></li>
+        <li><a href="#">Outdoor Kitchens</a></li>
+        <li><a href="#">Remodeling & Resurfacing</a></li>
+        <li><a href="#">Maintenance & Repair</a></li>
+        <li><a href="#">Outdoor Living Spaces</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Company</p>
+      <ul class="footer-links">
+        <li><a href="#">About Matmar</a></li>
+        <li><a href="#">Our Work</a></li>
+        <li><a href="#">Process</a></li>
+        <li><a href="#">Financing</a></li>
+      </ul>
+    </div>
+    <div>
+      <p class="footer-col-title">Contact</p>
+      <ul class="footer-links">
+        <li><a href="tel:+19560000000">(956) 000-0000</a></li>
+        <li><a href="mailto:hello@matmarpools.com">hello@matmarpools.com</a></li>
+        <li><a href="#">Rio Grande Valley, TX</a></li>
+        <li><a href="#contact" class="footer-link-gold">Book Consultation →</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2025 Matmar Pools & Outdoor Kitchens. All rights reserved.</span>
+    <span>Website by <a href="https://avenor.systems">Avenor Systems</a></span>
+  </div>
+</footer>
+
+<script src="./script.js"></script>
+</body>
 </html>
