@@ -967,8 +967,10 @@ footer {
   .nav-toggle { display: flex; }
   .services-grid { grid-template-columns: 1fr; }
   .portfolio-grid { grid-template-columns: 1fr; }
-  .stats-strip { flex-wrap: wrap; }
-  .stat-item { border-right: none; border-bottom: 1px solid rgba(255,255,255,0.1); }
+  .stats-strip { padding: 1rem 1.5rem; }
+  .stat-item { padding: 0.35rem 1rem; border-right: 1px solid rgba(255,255,255,0.1); border-bottom: none; }
+  .stat-num { font-size: 1.5rem; margin-bottom: 0.2rem; }
+  .stat-label { font-size: 0.55rem; }
   .footer-top { grid-template-columns: 1fr; }
   .hero-actions { flex-direction: column; align-items: flex-start; }
   
@@ -976,10 +978,16 @@ footer {
   .hero-img-side { display: block; width: 100%; margin-left: 0; height: 300px; margin-top: 2rem; }
   .hero-img-side::before { display: none; }
   
-  /* Show process images on mobile */
-  .process-img-col { display: block; margin-top: 2rem; }
-  .process-img-main { height: 300px; }
-  .process-img-accent { position: relative; bottom: auto; left: auto; width: 100%; height: 200px; border: none; }
+  /* Process section on mobile - keep 2-column layout */
+  .process { grid-template-columns: 1fr 0.8fr; gap: 1rem; padding: 3rem 1.25rem; align-items: flex-start; }
+  .process-steps { gap: 0; }
+  .process-step { padding: 1rem 0; gap: 0.75rem; }
+  .process-step-num { font-size: 1rem; min-width: 1.5rem; }
+  .process-step-title { font-size: 0.95rem; margin-bottom: 0.25rem; }
+  .process-step-desc { font-size: 0.75rem; line-height: 1.5; }
+  .process-img-col { position: relative; }
+  .process-img-main { height: 200px; }
+  .process-img-accent { position: absolute; bottom: -1rem; left: -0.75rem; width: 50%; height: 120px; border: 3px solid var(--white); }
 }
 
 /* SCROLL ANIMATION */
